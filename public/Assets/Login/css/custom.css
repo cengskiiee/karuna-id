@@ -1,0 +1,14 @@
+body {
+    background: linear-gradient(180deg, transparent 0%, #0e0d1b8c 40.5%),
+        url("/Assets/Landing/images/page-header-bg.jpg") no-repeat center center;
+    background-size: cover;
+    animation: shrink 5s infinite alternate;
+}
+@keyframes shrink {
+    0% {
+        background-size: 110% 110%;
+    }
+    100% {
+        background-size: 100% 100%;
+    }
+}
