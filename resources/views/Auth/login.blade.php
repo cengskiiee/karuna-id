@@ -16,7 +16,7 @@
     <!-- App Css-->
     <link href="{{ asset('Assets/Login/css/app.min.css') }}" id="app-style" rel="stylesheet" type="text/css" />
     <!-- custom-->
-    <link href="{{ asset('Assets/Login/css/custom.css') }}?v=1.0.0" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('Assets/Login/css/custom.css') }}?v=1.0.0a" rel="stylesheet" type="text/css" />
 
 </head>
 

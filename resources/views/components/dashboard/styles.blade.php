@@ -9,7 +9,7 @@
 <!-- Sweet alert-->
 <link href="{{ asset('Assets/Dashboard/libs/sweetalert2/sweetalert2.min.css') }}" rel="stylesheet" type="text/css" />
 <!-- custom-->
-<link href="{{ asset('Assets/Dashboard/css/custom.css') }}?v=1.0.0" rel="stylesheet" type="text/css" />
+<link href="{{ asset('Assets/Dashboard/css/custom.css') }}?v=1.0.0a" rel="stylesheet" type="text/css" />
 
 <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css">
 <link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">

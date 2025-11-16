@@ -20,7 +20,7 @@
 <!-- Mouse Cursor Css File -->
 <link rel="stylesheet" href="{{ asset('Assets/Landing/css/mousecursor.css') }}">
 <!-- Main Custom Css -->
-<link href="{{ asset('Assets/Landing/css/custom.css') }}?v=1.0.0" rel="stylesheet" media="screen">
+<link href="{{ asset('Assets/Landing/css/custom.css') }}?v=1.0.0a" rel="stylesheet" media="screen">
 
 <style>
     .post-featured-image {
