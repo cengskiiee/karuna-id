@@ -188,51 +188,39 @@
     <!-- Our Services Section End -->
 
     <!-- Why Choose Us Section Start -->
-    <div class="why-choose-us">
+    {{-- <div class="why-choose-us">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">
-                    <!-- Why Choose Content Start -->
                     <div class="why-choose-content">
-                        <!-- Section Title Start -->
                         <div class="section-title">
                             <h3 class="wow fadeInUp">{{ __('general.why_choose_us') }}</h3>
                             <h2 class="text-anime-style-3" data-cursor="-opaque">{{ $whyUs->translate('title') }}</h2>
                         </div>
-                        <!-- Section Title End -->
-
-                        <!-- Why Choose Content Body Start -->
+\
                         <div class="why-choose-content-body wow fadeInUp" data-wow-delay="0.25s">
                             <p style="text-align: justify;">{{ $whyUs->translate('description') }}</p>
                         </div>
-                        <!-- Why Choose Content Body End -->
 
-                        <!-- Why Choose Content Footer Start -->
                         <div class="why-choose-content-footer wow fadeInUp" data-wow-delay="0.5s">
                             <a href="{{ route('about') }}" class="btn-default">{{ __('general.learn_more') }}</a>
                         </div>
-                        <!-- Why Choose Content Footer End -->
                     </div>
-                    <!-- Why Choose Content End -->
                 </div>
 
                 <div class="col-lg-6">
-                    <!-- Why Choose Box Start -->
                     <div class="why-choose-box">
                         <div class="row">
                             <div class="col-lg-6 col-md-6">
-                                <!-- Why Choose Image Start -->
                                 <div class="why-choose-image">
                                     <figure class="image-anime reveal">
                                         <img src="{{ asset('storage/' . $whyUs->image_why_1) }}"
                                             alt="{{ $whyUs->translate('title') }}">
                                     </figure>
                                 </div>
-                                <!-- Why Choose Image End -->
                             </div>
 
                             <div class="col-lg-6 col-md-6">
-                                <!-- Why Choose Item Start -->
                                 <div class="why-choose-item wow fadeInUp" data-wow-delay="0.25s" data-cursor="-opaque">
                                     <div class="icon-box">
                                         <img src="{{ asset('Assets/Landing/images/icon-why-choose-1.svg') }}"
@@ -245,11 +233,9 @@
                                         <a href="{{ route('projects') }}">{{ __('general.discover') }}</a>
                                     </div>
                                 </div>
-                                <!-- Why Choose Item End -->
                             </div>
 
                             <div class="col-lg-6 col-md-6 order-lg-1 order-md-1 order-2">
-                                <!-- Why Choose Item Start -->
                                 <div class="why-choose-item wow fadeInUp" data-wow-delay="0.25s" data-cursor="-opaque">
                                     <div class="icon-box">
                                         <img src="{{ asset('Assets/Landing/images/icon-why-choose-2.svg') }}"
@@ -262,26 +248,22 @@
                                         <a href="{{ route('services') }}">{{ __('general.discover') }}</a>
                                     </div>
                                 </div>
-                                <!-- Why Choose Item End -->
                             </div>
 
                             <div class="col-lg-6 col-md-6 order-lg-2 order-md-2 order-1">
-                                <!-- Why Choose Image Start -->
                                 <div class="why-choose-image">
                                     <figure class="image-anime reveal">
                                         <img src="{{ asset('storage/' . $whyUs->image_why_2) }}"
                                             alt="{{ $whyUs->translate('title') }}">
                                     </figure>
                                 </div>
-                                <!-- Why Choose Image End -->
                             </div>
                         </div>
                     </div>
-                    <!-- Why Choose Box End -->
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
     <!-- Why Choose Us Section End -->
 
     <!-- Intro Video Section Start -->
@@ -375,24 +357,20 @@
 
 
     <!-- Our FAQs Section Start -->
-    <div class="our-faqs">
+    {{-- <div class="our-faqs">
         <div class="container">
             <div class="row">
                 <div class="col-lg-5">
-                    <!-- Section Title Start -->
                     <div class="section-title">
                         <h3 class="wow fadeInUp">{{ __('general.faq_title') }}</h3>
                         <h2 class="text-anime-style-3" data-cursor="-opaque">
                             {{ __('general.everything_you_know_about_our_services') }}</h2>
                     </div>
-                    <!-- Section Title End -->
                 </div>
 
                 <div class="col-lg-7">
-                    <!-- FAQ Accordion Start -->
                     <div class="faq-accordion" id="accordion">
                         @foreach ($faqs as $index => $faq)
-                            <!-- FAQ Item Start -->
                             <div class="accordion-item wow fadeInUp" data-wow-delay="{{ $index * 0.25 }}s">
                                 <h2 class="accordion-header" id="heading{{ $index }}">
                                     <button class="accordion-button collapsed" type="button"
@@ -410,14 +388,12 @@
                                     </div>
                                 </div>
                             </div>
-                            <!-- FAQ Item End -->
                         @endforeach
                     </div>
-                    <!-- FAQ Accordion End -->
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
     <!-- Our FAQs Section End -->
 
 

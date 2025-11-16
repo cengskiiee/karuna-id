@@ -2,8 +2,8 @@
 <div class="preloader">
     <div class="loading-container">
         <div class="loading"></div>
-        <div id="loading-icon"><img class="loader-img" src="{{ asset('Assets/Landing/images/hdw-loader.png') }}"
-                alt=""></div>
+        <div id="loading-icon" style="left:61px !important;"><img class="loader-img"
+                src="{{ asset('Assets/Landing/images/hdw-loader.png') }}" alt=""></div>
     </div>
 </div>
 <!-- Preloader End -->
@@ -119,7 +119,7 @@
                                             href="{{ route('education') }}">{{ __('header.education') }}</a></li>
                                     <li class="nav-item"><a class="nav-link"
                                             href="{{ route('projects') }}">{{ __('header.projects') }}</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="{{ route('video') }}">Video</a></li>
+                                    {{-- <li class="nav-item"><a class="nav-link" href="{{ route('video') }}">Video</a></li> --}}
                                 </ul>
                             </li>
                             <li class="nav-item highlighted-menu"><a

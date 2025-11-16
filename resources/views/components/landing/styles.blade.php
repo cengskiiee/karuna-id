@@ -3,7 +3,8 @@
 <!-- Google Fonts Css-->
 <link rel="preconnect" href="https://fonts.googleapis.com/">
 <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&amp;display=swap"
+    rel="stylesheet">
 <!-- Bootstrap Css -->
 <link href="{{ asset('Assets/Landing/css/bootstrap.min.css') }}" rel="stylesheet" media="screen">
 <!-- SlickNav Css -->
@@ -19,12 +20,13 @@
 <!-- Mouse Cursor Css File -->
 <link rel="stylesheet" href="{{ asset('Assets/Landing/css/mousecursor.css') }}">
 <!-- Main Custom Css -->
-<link href="{{ asset('Assets/Landing/css/custom.css') }}" rel="stylesheet" media="screen">
+<link href="{{ asset('Assets/Landing/css/custom.css') }}?v=1.0.0" rel="stylesheet" media="screen">
 
 <style>
     .post-featured-image {
-    aspect-ratio: 16 / 9;  /* Atur sesuai rasio yang diinginkan, misalnya 16:9 */
-    overflow: hidden;
+        aspect-ratio: 16 / 9;
+        /* Atur sesuai rasio yang diinginkan, misalnya 16:9 */
+        overflow: hidden;
     }
 
     .card-image {
