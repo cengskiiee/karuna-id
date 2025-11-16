@@ -1,10 +1,10 @@
 <!-- ScrollUp Button Start -->
 <div class="back-to-top-button">
     <a href="#top">
-      <i class="fas fa-chevron-up"></i>
+        <i class="fas fa-chevron-up"></i>
     </a>
-  </div>
-  <!-- ScrollUp Button End -->
+</div>
+<!-- ScrollUp Button End -->
 
 <!-- Footer Start -->
 <footer class="main-footer">
@@ -16,7 +16,8 @@
                     <!-- Footer Logo Start -->
                     <div class="footer-logo">
                         <figure>
-                            <img src="{{ asset('Assets/Landing/images/footer-logo.png') }}" alt="">
+                            {{-- <img src="{{ asset('Assets/Landing/images/footer-logo.png') }}" alt=""> --}}
+                            <img src="{{ asset('Assets/Landing/images/hdw-icon.png') }}" alt="">
                         </figure>
                     </div>
                     <!-- Footer Logo End -->
@@ -32,8 +33,8 @@
                         <ul>
                             <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
                             <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>                                                                
-                            <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>                                                                
+                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
                         </ul>
                     </div>
                     <!-- Footer Social Links End -->
@@ -45,10 +46,10 @@
                 <!-- Footer Quick Links Start -->
                 <div class="footer-quick-links">
                     <h2>{{ __('footer.useful_links') }}</h2>
-                    <ul>                            
+                    <ul>
                         <li><a href="{{ route('about') }}">{{ __('footer.about_us') }}</a></li>
-                        <li><a href="{{ route('services') }}">{{ __('footer.services') }}</a></li>
-                        <li><a href="{{ route('news') }}">{{ __('footer.news') }}</a></li>
+                        {{-- <li><a href="{{ route('services') }}">{{ __('footer.services') }}</a></li> --}}
+                        {{-- <li><a href="{{ route('news') }}">{{ __('footer.news') }}</a></li> --}}
                         <li><a href="{{ route('contact') }}">{{ __('footer.contact_us') }}</a></li>
                     </ul>
                 </div>
@@ -59,7 +60,7 @@
                 <!-- Footer Newsletter Start -->
                 <div class="footer-quick-links">
                     <h2>Media</h2>
-                    <ul>                            
+                    <ul>
                         <li><a href="{{ route('activities') }}">{{ __('footer.activities') }}</a></li>
                         <li><a href="{{ route('education') }}">{{ __('footer.education') }}</a></li>
                         <li><a href="{{ route('projects') }}">{{ __('footer.projects') }}</a></li>
@@ -114,13 +115,13 @@
 
         </div>
     </div>
-     <!-- Footer Copyright Section Start -->
-     <div class="footer-copyright">
+    <!-- Footer Copyright Section Start -->
+    <div class="footer-copyright">
         <div class="row">
             <div class="col-lg-12">
                 <!-- Footer Copyright Start -->
                 <div class="footer-copyright-text">
-                    <p>Copyright © 2024 Hadiwana Tirta Lestari. All Rights Reserved.</p>
+                    <p>Copyright © {{ date('Y') }} Karuna Liberatia Indonesia. All Rights Reserved.</p>
                 </div>
                 <!-- Footer Copyright End -->
             </div>
