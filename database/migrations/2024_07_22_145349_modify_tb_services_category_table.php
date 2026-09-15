@@ -30,7 +30,7 @@ return new class extends Migration
     {
         //
         // Mengembalikan perubahan
-        Schema::table('tb_service_category', function (Blueprint $table) {
+        Schema::table('tb_services_category', function (Blueprint $table) {
             // Ganti nama kolom kembali
             $table->renameColumn('en_service_category_title', 'service_category_title');
             $table->renameColumn('en_description', 'description');
